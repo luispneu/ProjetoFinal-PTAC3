@@ -1,19 +1,19 @@
 import { NextResponse } from "next/server";
 
-export const listaDeLivros = [
+export const listaDeCarros = [
     {
         id: 1,
-        titulo: "O Senhor dos Anéis",
-        autor: "J.R.R. Tolkien",
-        anoPublicacao: 1954,
-        genero: "Fantasia"
+        nomeDoCarro: "O Senhor dos Anéis",
+        MarcaDoCarro: "J.R.R. Tolkien",
+        anoDoCarro: 1954,
+        PreçoDoCarro: "Fantasia"
     },
     {
         id: 2,
-        titulo: "1984",
-        autor: "George Orwell",
-        anoPublicacao: 1949,
-        genero: "Distopia"
+        nomeDoCarro: "1984",
+        MarcaDoCarro: "George Orwell",
+        anoDoCarro: 1949,
+        PreçoDoCarro: "Distopia"
     }
 ];
 
